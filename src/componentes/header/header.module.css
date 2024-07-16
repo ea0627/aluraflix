@@ -1,0 +1,156 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.1em 10em;
+    background-color: var(--negro);
+    border-top: 5px solid var(--azul);
+}
+
+a{
+    text-decoration: none;
+}
+
+.logoContainer{
+    display: none;
+}
+
+.header img{
+    align-self: start;
+}
+
+.cabecera span{
+    align-self: end;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    margin-left: 8px;
+    font-size: 1.5rem;
+}
+
+.botones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 385px;
+    height: 54px;
+}
+
+.imgbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+
+p{
+    display: none;
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.1em 10em;
+        background-color: var(--negro);
+        border-bottom: 5px solid var(--azul);
+        box-shadow:inset;
+        border-top: none;
+        height: 125px;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .logoContainer{
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+
+    .header img{
+        align-self: start;
+    }
+
+    .cabecera span{
+        align-self: end;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: white;
+        margin-left: 8px;
+        font-size: 1.5rem;
+    }
+
+    .botones{
+        display: flex;
+        gap: 10px;
+        width: 385px;
+        height: 54px;
+    }
+
+    .imgbtn{
+        display: none;
+    }
+
+    p{
+        display: inline;
+    }
+}
+
+@media (min-width:992px){
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.1em 10em;
+        background-color: var(--negro);
+        border-bottom: 5px solid var(--azul);
+        border-top: none;
+        height: 125px;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .logoContainer{
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+
+    .header img{
+        align-self: start;
+    }
+
+    .cabecera span{
+        align-self: end;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: white;
+        margin-left: 8px;
+        font-size: 1.5rem;
+    }
+
+    .botones{
+        display: flex;
+        gap: 10px;
+        width: 385px;
+        height: 54px;
+    }
+
+    .imgbtn{
+        display: none;
+    }
+    
+    p{
+        display: inline;
+    }
+
+}

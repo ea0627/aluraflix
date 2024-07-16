@@ -1,0 +1,27 @@
+.footer{
+    display: none;
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .footer{
+        height: 125px;
+        background-color: var(--negro);
+        display: flex;
+        border-top: 5px solid var(--azul);
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (min-width:992px){
+
+    .footer{
+        height: 125px;
+        background-color: var(--negro);
+        display: flex;
+        border-top: 5px solid var(--azul);
+        align-items: center;
+        justify-content: center;
+    }
+
+}

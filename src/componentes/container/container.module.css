@@ -1,0 +1,8 @@
+.container{
+    margin: 2em 2em;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    gap: .5em;
+}

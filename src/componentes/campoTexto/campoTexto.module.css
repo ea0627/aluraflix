@@ -1,0 +1,28 @@
+
+.campoTexto{
+    display: flex;
+    margin: 24px, 0;
+    gap: 20px;
+    /* background-color: var(--negro); */
+}
+
+.campoTexto label{
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight:bolder;
+    display: block;
+    align-self: flex-start;
+}
+
+.campoTexto input{
+    font-family: var(--font);
+    height: 100%;
+    width: 95%;
+    background-color: var(--negro);
+    border: gray 1px solid;
+    border-radius: 5px;
+    padding: 15px 10px;
+    outline-color: 1px solid var(--azul);
+    color: lightgray;
+    align-self: start;
+}

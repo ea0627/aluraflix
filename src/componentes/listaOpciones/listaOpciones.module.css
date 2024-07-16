@@ -1,0 +1,25 @@
+.listaOpciones{
+    display: flex;
+    /* margin: 24px, 0; */
+    gap: 28px;
+
+}
+
+.listaOpciones label{
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight:bolder;
+    display: block;
+    align-self: flex-start;
+}
+
+.listaOpciones select{
+    background-color: var(--negro);
+    width: 99%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: lightgray;
+    font-weight: 600;
+}

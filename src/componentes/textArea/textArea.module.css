@@ -1,0 +1,24 @@
+.cajaTexto{
+    gap: 20px;
+}
+
+.cajaTexto label{
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight:bolder;
+    display: block;
+    align-self: flex-start;
+}
+
+.areaTexto{
+    /* font-family: Source sans-serif; */
+    align-self: flex-start;
+    height: 100%;
+    width: 50%;
+    background-color: var(--negro);
+    border: gray 1px solid;
+    border-radius: 5px;
+    padding: 15px 10px;
+    outline-color: white;
+    color: lightgray;
+}

@@ -1,0 +1,5 @@
+.containerCard{
+    /* background-color: aqua; */
+    display: flex;
+    gap: 1rem;
+}

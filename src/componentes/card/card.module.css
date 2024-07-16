@@ -1,0 +1,34 @@
+.container{
+    background-color: #03122F;
+    width: 430px;
+    height: 324px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.container .foto{
+    height: 80%;
+}
+
+.container .deleteEdit{
+    border-bottom-left-radius: 20px;   
+    border-bottom-right-radius: 20px;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000;
+    color: aliceblue;
+}
+
+.container .deleteEdit div{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.container .deleteEdit div p{
+    font-weight: bold;
+}

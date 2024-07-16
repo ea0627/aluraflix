@@ -1,0 +1,16 @@
+.boton{
+    width: 180px;
+    height: 54px;
+    border: 1px #FFF solid;
+    border-radius: 5px;
+    background-color: var(--negro);
+    color: var(--blanco);
+}
+
+.boton:hover{
+    width: 180px;
+    height: 54px;
+    border: 1px var(--azul) solid;
+    border-radius: 5px;
+    color: var(--azul);
+}

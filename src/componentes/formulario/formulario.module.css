@@ -1,0 +1,71 @@
+.formulario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 80px 0;
+}
+
+.formulario form{
+    width: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    max-width: 100%;
+    color: #FFFFFF;
+    background-color: #191919;
+    border-radius: 15px;
+    /* border: #6BD1FF 5px solid; */
+    padding: 8px 100px;
+}
+
+.formulario form h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.formulario form p{
+    font-size: 10px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 0;
+}
+
+.formulario form h2{
+    display: flex;
+    background-color: #191919;
+    font-size: 20px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: gray;
+    padding: 15px 10px;
+}
+
+.formulario form div{
+    /* background-color: #6BD1FF; */
+    width: 100%;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.formulario form div .row{
+    /* background-color: gray; */
+    /* display: flex; */
+    flex-direction: row;
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding: 20px 0;
+}
+
+.formulario form div .rowCajaTexto{
+    /* background-color: gray; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* align-items: center; */
+    justify-content: flex-start;
+    padding: 20px 0;
+}

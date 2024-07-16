@@ -1,0 +1,13 @@
+.categoria{
+    width: 100%;
+    padding: 32px;
+    box-sizing: border-box;
+}
+
+h3{
+    align-self: start;
+    padding: 32px;
+    width: fit-content;
+    border-radius: 10px;
+    font-size: 20px;
+}
